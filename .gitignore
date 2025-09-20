@@ -1,0 +1,28 @@
+#Environment variables
+#This is the most important line! It keeps your secrets safe.
+.env
+
+#Python virtual environment
+#This folder is large and specific to your computer.
+venv/
+env/
+
+#Django static files and media
+/static/
+/media/
+
+#Python cache files
+pycache/
+*.pyc
+
+#SQLite database file (good practice to always include)
+*.sqlite3
+db.sqlite3
+
+##IDE and editor specific files
+.idea/
+.vscode/
+
+#Operating System generated files
+.DS_Store
+Thumbs.db
